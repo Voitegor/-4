@@ -1,0 +1,47 @@
+/* Загальні стилі */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  height: 100vh;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Стилі візитки */
+.card {
+  background-color: white;
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  position: relative;
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Анімація "плавання" */
+@keyframes float {
+  0% { top: 0px; }
+  50% { top: -15px; }
+  100% { top: 0px; }
+}
+
+/* Стилі кнопки */
+button {
+  margin-top: 20px;
+  padding: 10px 25px;
+  font-size: 16px;
+  background-color: #0078d7;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Підсвічування кнопки при наведенні */
+button:hover {
+  background-color: #005fa3;
+}

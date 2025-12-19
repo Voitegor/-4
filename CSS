@@ -1,4 +1,3 @@
-/* Загальні стилі */
 body {
   margin: 0;
   padding: 0;
@@ -10,7 +9,6 @@ body {
   align-items: center;
 }
 
-/* Стилі візитки */
 .card {
   background-color: white;
   padding: 30px 40px;
@@ -21,14 +19,12 @@ body {
   animation: float 3s ease-in-out infinite;
 }
 
-/* Анімація "плавання" */
 @keyframes float {
   0% { top: 0px; }
   50% { top: -15px; }
   100% { top: 0px; }
 }
 
-/* Стилі кнопки */
 button {
   margin-top: 20px;
   padding: 10px 25px;
@@ -41,7 +37,6 @@ button {
   transition: background-color 0.3s ease;
 }
 
-/* Підсвічування кнопки при наведенні */
 button:hover {
   background-color: #005fa3;
 }
